@@ -38,7 +38,7 @@ Application Usage:
 
 User Activity:
 * Host name (RMDB only)
-* MAC addess (RMDB only)
+* MAC address (RMDB only)
 * Last report time
 * Username
 * Login type
@@ -60,15 +60,15 @@ This will produce 2 output files in your working directory:
 
 #### Parsing User Activity files:
 `ardvark.py -u UserAcct.tmp`\
-ARDvark will accept UserAcct.tmp files fromm client systems, or the files under `/private/var/db/RemoteManagement/ClientCaches/UserAccounting` 
-on on ARD administrator system.\
+ARDvark will accept UserAcct.tmp files from client systems, or the files under `/private/var/db/RemoteManagement/ClientCaches/UserAccounting` 
+on ARD administrator system.\
 This will produce 1 output file in your working directory:
 * UserActivityPlist.csv
 
 #### Parsing AppUsage.plist files:
 `ardvark.py -u AppUsage.plist`\
 ARDvark will accept AppUsage.plist files from client systems, or the files under `private/var/db/RemoteManagement/ClientCaches/ApplicationUsage`
-on on ARD administrator system.\
+on ARD administrator system.\
 This will produce 1 output file in your working directory:
 * AppUsagePlist.csv
 
